@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Top E-Bike Zubehör 2025 – Bestseller & Empfehlungen</title>
+  <meta name="description" content="Die 10 meistgesuchten E-Bike Zubehörprodukte 2025 – mit Bildern, Beschreibung und Amazon Affiliate-Links für DE, AT, CH.">
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background: #f4f4f4;
+      margin: 0;
+      padding: 0;
+      color: #333;
+    }
+    header {
+      background: #2a7f62;
+      color: white;
+      padding: 30px 20px;
+      text-align: center;
+    }
+    h1 {
+      margin: 0;
+      font-size: 2em;
+    }
+    .container {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      padding: 20px;
+      gap: 20px;
+    }
+    .card {
+      background: white;
+      border-radius: 8px;
+      box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+      width: 300px;
+      padding: 15px;
+      text-align: center;
+    }
+    .card img {
+      max-width: 100%;
+      height: auto;
+      border-radius: 4px;
+    }
+    .card h2 {
+      font-size: 1.1em;
+      margin: 10px 0 5px;
+      color: #2a7f62;
+    }
+    .card p {
+      font-size: 0.9em;
+      margin: 5px 0;
+    }
+    .card a {
+      display: inline-block;
+      margin-top: 10px;
+      background: #2a7f62;
+      color: white;
+      padding: 8px 12px;
+      text-decoration: none;
+      border-radius: 4px;
+    }
+    @media (max-width: 650px) {
+      .card {
+        width: 90%;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>Top 10 E-Bike Zubehörprodukte 2025</h1>
+    <p>Die meistgesuchten Gadgets für dein E-Bike – mit direktem Amazon-Link</p>
+  </header>
+
+  <section class="container">
+
+    <div class="card">
+      <img src="https://m.media-amazon.com/images/I/71gkXwqvKDL._AC_SL1500_.jpg" alt="Abus Bordo Alarm 6000">
+      <h2>Abus Bordo Alarm 6000</h2>
+      <p>Faltschloss mit 100 dB Alarm, Bluetooth & Ortung.</p>
+      <a href="https://amzn.to/46TCdJu">Jetzt ansehen</a>
+    </div>
+
+    <div class="card">
+      <img src="https://m.media-amazon.com/images/I/61YwXbYzGZL._AC_SL1500_.jpg" alt="Lumos Street Helm">
+      <h2>Lumos Street Helm</h2>
+      <p>Smarter Helm mit LEDs, Bremslicht & Blinker.</p>
+      <a href="https://amzn.to/489M0gW">Jetzt ansehen</a>
+    </div>
+
+    <div class="card">
+      <img src="https://m.media-amazon.com/images/I/61rZKqJvJXL._AC_SL1500_.jpg" alt="Tagplus AirTag Case">
+      <h2>Tagplus AirTag Case</h2>
+      <p>GPS-Tracking-Halterung mit 3M-Kleber – diebstahlsicher.</p>
+      <a href="https://amzn.to/3KTZ2p2">Jetzt ansehen</a>
+    </div>
+
+    <div class="card">
+      <img src="https://m.media-amazon.com/images/I/61jYJv4gKDL._AC_SL1000_.jpg" alt="Fischer Twin Rücklicht">
+      <h2>Fischer Twin Rücklicht</h2>
+      <p>360° Sichtbarkeit mit Boden- & Seitenbeleuchtung.</p>
+      <a href="https://amzn.to/3IXGrIb">Jetzt ansehen</a>
+    </div>
+
+    <div class="card">
+      <img src="https://m.media-amazon.com/images/I/61Z1dZxYJXL._AC_SL1000_.jpg" alt="RNG Lenkerend-Klingel">
+      <h2>RNG Lenkerend-Klingel</h2>
+      <p>Dezente Klingel für MTB & Gravel Bikes.</p>
+      <a href="https://amzn.to/3KCI0M4">Jetzt ansehen</a>
+    </div>
+
+    <div class="card">
+      <img src="https://m.media-amazon.com/images/I/61gkXwqvKDL._AC_SL1000_.jpg" alt="West Biking Gepäckträger">
+      <h2>West Biking Gepäckträger</h2>
+      <p>Nachrüstbarer Träger mit 50 kg Belastung.</p>
+      <a href="https://amzn.to/4mPOnJs">Jetzt ansehen</a>
+    </div>
+
+    <div class="card">
+      <img src="https://m.media-amazon.com/images/I/61YwXbYzGZL._AC_SL1000_.jpg" alt="Cycplus Tiny Pumpe">
+      <h2>Cycplus Tiny Pumpe</h2>
+      <p>Elektrische Mini-Luftpumpe, 6,8 bar, ultraleicht.</p>
+      <a href="https://amzn.to/4o24NPI">Jetzt ansehen</a>
+    </div>
+
+    <div class="card">
+      <img src="https://m.media-amazon.com/images/I/61zZxgY1uEL._AC_SL1000_.jpg" alt="LifeStraw Filter-Strohhalm">
+      <h2>LifeStraw Filter-Strohhalm</h2>
+      <p>Filtert 99,999999 % Bakterien – ideal für Touren.</p>
+      <a href="https://amzn.to/4nxsvDH">Jetzt ansehen</a>
+    </div>
+
+  </section>
+
+</body>
+</html>
