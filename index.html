@@ -3,137 +3,184 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Top E-Bike Zubehör 2025 – Bestseller & Empfehlungen</title>
-  <meta name="description" content="Die 10 meistgesuchten E-Bike Zubehörprodukte 2025 – mit Bildern, Beschreibung und Amazon Affiliate-Links für DE, AT, CH.">
+  <title>Fahrradzubehör – Die besten Produkte für E-Bikes</title>
   <style>
     body {
+      margin: 0;
       font-family: Arial, sans-serif;
-      background: #f4f4f4;
-      margin: 0;
-      padding: 0;
-      color: #333;
-    }
-    header {
-      background: #2a7f62;
-      color: white;
-      padding: 30px 20px;
-      text-align: center;
-    }
-    h1 {
-      margin: 0;
-      font-size: 2em;
-    }
-    .container {
+      background: #f7f7f7;
       display: flex;
-      flex-wrap: wrap;
-      justify-content: center;
+    }
+
+    /* Seitenmenü */
+    .sidebar {
+      width: 240px;
+      background: #20232a;
+      color: #fff;
+      min-height: 100vh;
+      position: fixed;
+      left: 0;
+      top: 0;
+      display: flex;
+      flex-direction: column;
       padding: 20px;
+    }
+
+    .sidebar h2 {
+      margin-top: 0;
+      font-size: 20px;
+      text-align: center;
+      color: #61dafb;
+    }
+
+    .sidebar nav a {
+      color: #fff;
+      text-decoration: none;
+      padding: 10px 0;
+      border-bottom: 1px solid #333;
+      display: block;
+    }
+
+    .sidebar nav a:hover {
+      color: #61dafb;
+    }
+
+    /* Hauptinhalt */
+    .content {
+      margin-left: 260px;
+      padding: 20px;
+      flex: 1;
+    }
+
+    .content h1 {
+      text-align: center;
+      color: #222;
+      margin-bottom: 30px;
+    }
+
+    .product-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
       gap: 20px;
     }
-    .card {
-      background: white;
-      border-radius: 8px;
-      box-shadow: 0 2px 6px rgba(0,0,0,0.1);
-      width: 300px;
+
+    .product {
+      background: #fff;
+      border-radius: 10px;
+      box-shadow: 0 2px 5px rgba(0,0,0,0.1);
       padding: 15px;
       text-align: center;
+      transition: transform 0.2s ease;
     }
-    .card img {
-      max-width: 100%;
-      height: auto;
-      border-radius: 4px;
+
+    .product:hover {
+      transform: translateY(-4px);
     }
-    .card h2 {
-      font-size: 1.1em;
-      margin: 10px 0 5px;
-      color: #2a7f62;
+
+    .product img {
+      width: 100%;
+      height: 200px;
+      object-fit: contain;
+      border-radius: 8px;
     }
-    .card p {
-      font-size: 0.9em;
-      margin: 5px 0;
+
+    .product h3 {
+      font-size: 18px;
+      margin: 10px 0;
+      color: #333;
     }
-    .card a {
+
+    .product a {
       display: inline-block;
-      margin-top: 10px;
-      background: #2a7f62;
-      color: white;
-      padding: 8px 12px;
+      background: #0073bb;
+      color: #fff;
+      padding: 10px 15px;
+      border-radius: 5px;
       text-decoration: none;
-      border-radius: 4px;
+      margin-top: 8px;
     }
-    @media (max-width: 650px) {
-      .card {
-        width: 90%;
+
+    .product a:hover {
+      background: #005a91;
+    }
+
+    footer {
+      text-align: center;
+      font-size: 12px;
+      margin-top: 40px;
+      color: #777;
+    }
+
+    @media (max-width: 800px) {
+      .sidebar {
+        position: relative;
+        width: 100%;
+        flex-direction: row;
+        justify-content: space-around;
+        min-height: auto;
+      }
+      .content {
+        margin-left: 0;
       }
     }
   </style>
 </head>
 <body>
+  <aside class="sidebar">
+    <h2>🚲 Fahrradzubehör</h2>
+    <nav>
+      <a href="#">Startseite</a>
+      <a href="#">Beliebte Produkte</a>
+      <a href="#">Angebote</a>
+      <a href="#">Neuheiten</a>
+      <a href="#">Kontakt</a>
+    </nav>
+  </aside>
 
-  <header>
-    <h1>Top 10 E-Bike Zubehörprodukte 2025</h1>
-    <p>Die meistgesuchten Gadgets für dein E-Bike – mit direktem Amazon-Link</p>
-  </header>
+  <main class="content">
+    <h1>Die besten Produkte für E-Bikes 2025</h1>
 
-  <section class="container">
+    <div class="product-grid">
+      <div class="product">
+        <img src="https://m.media-amazon.com/images/I/71cC3RxNftL._AC_SL1500_.jpg" alt="E-Bike Akku 36V 15Ah">
+        <h3>E-Bike Akku 36V 15Ah – Lange Reichweite</h3>
+        <a href="https://www.amazon.de/dp/B0BHQJDV3H?tag=myaffiliat0d2-21" target="_blank">Jetzt ansehen</a>
+      </div>
 
-    <div class="card">
-      <img src="https://m.media-amazon.com/images/I/71gkXwqvKDL._AC_SL1500_.jpg" alt="Abus Bordo Alarm 6000">
-      <h2>Abus Bordo Alarm 6000</h2>
-      <p>Faltschloss mit 100 dB Alarm, Bluetooth & Ortung.</p>
-      <a href="https://amzn.to/46TCdJu">Jetzt ansehen</a>
+      <div class="product">
+        <img src="https://m.media-amazon.com/images/I/81XK1+7TgUL._AC_SL1500_.jpg" alt="Abus Bordo Schloss">
+        <h3>Abus Bordo Faltschloss 6000A</h3>
+        <a href="https://www.amazon.de/dp/B07KZFV8PZ?tag=myaffiliat0d2-21" target="_blank">Jetzt ansehen</a>
+      </div>
+
+      <div class="product">
+        <img src="https://m.media-amazon.com/images/I/71yEOLuHuGL._AC_SL1500_.jpg" alt="Uvex City i-vo Helm">
+        <h3>Uvex City i-vo E-Bike Helm</h3>
+        <a href="https://www.amazon.de/dp/B07Z5PBYL8?tag=myaffiliat0d2-21" target="_blank">Jetzt ansehen</a>
+      </div>
+
+      <div class="product">
+        <img src="https://m.media-amazon.com/images/I/61wJrxK6DQL._AC_SL1500_.jpg" alt="E-Bike Ladegerät">
+        <h3>36V Ladegerät für E-Bikes – Schnellladegerät</h3>
+        <a href="https://www.amazon.de/dp/B0C6H4H8ZH?tag=myaffiliat0d2-21" target="_blank">Jetzt ansehen</a>
+      </div>
+
+      <div class="product">
+        <img src="https://m.media-amazon.com/images/I/71HTdShPg4L._AC_SL1500_.jpg" alt="Fahrradtasche Wasserdicht">
+        <h3>Wasserdichte Fahrradtasche – 20 L Stauraum</h3>
+        <a href="https://www.amazon.de/dp/B08H4F1Z3C?tag=myaffiliat0d2-21" target="_blank">Jetzt ansehen</a>
+      </div>
+
+      <div class="product">
+        <img src="https://m.media-amazon.com/images/I/61x3rG8RX3L._AC_SL1500_.jpg" alt="Fahrradlicht Set">
+        <h3>LED Fahrradlicht-Set – StVZO zugelassen</h3>
+        <a href="https://www.amazon.de/dp/B07ZZB3HYM?tag=myaffiliat0d2-21" target="_blank">Jetzt ansehen</a>
+      </div>
     </div>
 
-    <div class="card">
-      <img src="https://m.media-amazon.com/images/I/61YwXbYzGZL._AC_SL1500_.jpg" alt="Lumos Street Helm">
-      <h2>Lumos Street Helm</h2>
-      <p>Smarter Helm mit LEDs, Bremslicht & Blinker.</p>
-      <a href="https://amzn.to/489M0gW">Jetzt ansehen</a>
-    </div>
-
-    <div class="card">
-      <img src="https://m.media-amazon.com/images/I/61rZKqJvJXL._AC_SL1500_.jpg" alt="Tagplus AirTag Case">
-      <h2>Tagplus AirTag Case</h2>
-      <p>GPS-Tracking-Halterung mit 3M-Kleber – diebstahlsicher.</p>
-      <a href="https://amzn.to/3KTZ2p2">Jetzt ansehen</a>
-    </div>
-
-    <div class="card">
-      <img src="https://m.media-amazon.com/images/I/61jYJv4gKDL._AC_SL1000_.jpg" alt="Fischer Twin Rücklicht">
-      <h2>Fischer Twin Rücklicht</h2>
-      <p>360° Sichtbarkeit mit Boden- & Seitenbeleuchtung.</p>
-      <a href="https://amzn.to/3IXGrIb">Jetzt ansehen</a>
-    </div>
-
-    <div class="card">
-      <img src="https://m.media-amazon.com/images/I/61Z1dZxYJXL._AC_SL1000_.jpg" alt="RNG Lenkerend-Klingel">
-      <h2>RNG Lenkerend-Klingel</h2>
-      <p>Dezente Klingel für MTB & Gravel Bikes.</p>
-      <a href="https://amzn.to/3KCI0M4">Jetzt ansehen</a>
-    </div>
-
-    <div class="card">
-      <img src="https://m.media-amazon.com/images/I/61gkXwqvKDL._AC_SL1000_.jpg" alt="West Biking Gepäckträger">
-      <h2>West Biking Gepäckträger</h2>
-      <p>Nachrüstbarer Träger mit 50 kg Belastung.</p>
-      <a href="https://amzn.to/4mPOnJs">Jetzt ansehen</a>
-    </div>
-
-    <div class="card">
-      <img src="https://m.media-amazon.com/images/I/61YwXbYzGZL._AC_SL1500_.jpg" alt="Cycplus Tiny Pumpe">
-      <h2>Cycplus Tiny Pumpe</h2>
-      <p>Elektrische Mini-Luftpumpe, 6,8 bar, ultraleicht.</p>
-      <a href="https://amzn.to/4o24NPI">Jetzt ansehen</a>
-    </div>
-
-    <div class="card">
-      <img src="https://m.media-amazon.com/images/I/61zZxgY1uEL._AC_SL1000_.jpg" alt="LifeStraw Filter-Strohhalm">
-      <h2>LifeStraw Filter-Strohhalm</h2>
-      <p>Filtert 99,999999 % Bakterien – ideal für Touren.</p>
-      <a href="https://amzn.to/4nxsvDH">Jetzt ansehen</a>
-    </div>
-
-  </section>
-
+    <footer>
+      <p>Als Amazon-Partner verdiene ich an qualifizierten Verkäufen. Preise & Bilder von Amazon Product Advertising API.</p>
+    </footer>
+  </main>
 </body>
 </html>
