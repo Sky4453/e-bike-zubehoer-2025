@@ -1,186 +1,173 @@
 <!DOCTYPE html>
 <html lang="de">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Fahrradzubehör – Die besten Produkte für E-Bikes</title>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Fahrradzubehör & E-Bike Highlights 2025</title>
   <style>
     body {
       margin: 0;
       font-family: Arial, sans-serif;
-      background: #f7f7f7;
+      background: #f6f6f6;
+      color: #333;
+    }
+
+    header {
+      background: #0a2e5d;
+      color: white;
+      padding: 15px 20px;
+      text-align: center;
+      font-size: 1.4rem;
+      font-weight: bold;
+    }
+
+    .container {
       display: flex;
     }
 
-    /* Seitenmenü */
+    /* Sidebar */
     .sidebar {
-      width: 240px;
-      background: #20232a;
-      color: #fff;
+      width: 220px;
+      background: #142f4c;
+      color: white;
       min-height: 100vh;
-      position: fixed;
-      left: 0;
+      padding-top: 20px;
+      position: sticky;
       top: 0;
-      display: flex;
-      flex-direction: column;
-      padding: 20px;
     }
 
-    .sidebar h2 {
-      margin-top: 0;
-      font-size: 20px;
-      text-align: center;
-      color: #61dafb;
+    .sidebar h3 {
+      text-transform: uppercase;
+      font-size: 1rem;
+      padding: 10px 20px;
+      border-bottom: 1px solid rgba(255,255,255,0.1);
+      margin: 0;
     }
 
-    .sidebar nav a {
-      color: #fff;
-      text-decoration: none;
-      padding: 10px 0;
-      border-bottom: 1px solid #333;
-      display: block;
+    .sidebar ul {
+      list-style: none;
+      padding: 0;
+      margin: 0;
     }
 
-    .sidebar nav a:hover {
-      color: #61dafb;
+    .sidebar li {
+      padding: 10px 20px;
+      cursor: pointer;
+      border-bottom: 1px solid rgba(255,255,255,0.1);
+      transition: 0.2s;
     }
 
-    /* Hauptinhalt */
+    .sidebar li:hover {
+      background: #1e4a7e;
+    }
+
+    /* Main grid */
     .content {
-      margin-left: 260px;
-      padding: 20px;
       flex: 1;
-    }
-
-    .content h1 {
-      text-align: center;
-      color: #222;
-      margin-bottom: 30px;
-    }
-
-    .product-grid {
+      padding: 20px;
       display: grid;
       grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
       gap: 20px;
     }
 
     .product {
-      background: #fff;
+      background: white;
       border-radius: 10px;
       box-shadow: 0 2px 5px rgba(0,0,0,0.1);
-      padding: 15px;
+      overflow: hidden;
       text-align: center;
-      transition: transform 0.2s ease;
+      transition: transform 0.2s;
     }
 
     .product:hover {
-      transform: translateY(-4px);
+      transform: scale(1.02);
     }
 
     .product img {
       width: 100%;
-      height: 200px;
-      object-fit: contain;
-      border-radius: 8px;
+      height: 220px;
+      object-fit: cover;
     }
 
-    .product h3 {
-      font-size: 18px;
+    .product h4 {
       margin: 10px 0;
-      color: #333;
+      font-size: 1rem;
+      color: #222;
     }
 
     .product a {
       display: inline-block;
-      background: #0073bb;
-      color: #fff;
-      padding: 10px 15px;
+      margin-bottom: 15px;
+      padding: 8px 16px;
+      background: #0a2e5d;
+      color: white;
       border-radius: 5px;
       text-decoration: none;
-      margin-top: 8px;
+      transition: 0.2s;
     }
 
     .product a:hover {
-      background: #005a91;
+      background: #1e4a7e;
     }
 
-    footer {
-      text-align: center;
-      font-size: 12px;
-      margin-top: 40px;
-      color: #777;
-    }
-
-    @media (max-width: 800px) {
-      .sidebar {
-        position: relative;
-        width: 100%;
-        flex-direction: row;
-        justify-content: space-around;
-        min-height: auto;
-      }
-      .content {
-        margin-left: 0;
-      }
-    }
   </style>
 </head>
 <body>
-  <aside class="sidebar">
-    <h2>🚲 Fahrradzubehör</h2>
-    <nav>
-      <a href="#">Startseite</a>
-      <a href="#">Beliebte Produkte</a>
-      <a href="#">Angebote</a>
-      <a href="#">Neuheiten</a>
-      <a href="#">Kontakt</a>
+
+  <header>Fahrradzubehör & E-Bike Zubehör – Empfehlungen 2025</header>
+
+  <div class="container">
+    <nav class="sidebar">
+      <h3>Kategorie</h3>
+      <ul>
+        <li>E-Bike Zubehör</li>
+        <li>Helme</li>
+        <li>Schlösser</li>
+        <li>Beleuchtung</li>
+        <li>Fahrradtaschen</li>
+        <li>Werkzeug</li>
+        <li>Regenbekleidung</li>
+      </ul>
     </nav>
-  </aside>
 
-  <main class="content">
-    <h1>Die besten Produkte für E-Bikes 2025</h1>
-
-    <div class="product-grid">
+    <main class="content">
+      <!-- Produkt 1 -->
       <div class="product">
-        <img src="https://m.media-amazon.com/images/I/71cC3RxNftL._AC_SL1500_.jpg" alt="E-Bike Akku 36V 15Ah">
-        <h3>E-Bike Akku 36V 15Ah – Lange Reichweite</h3>
-        <a href="https://www.amazon.de/dp/B0BHQJDV3H?tag=myaffiliat0d2-21" target="_blank">Jetzt ansehen</a>
+        <img src="https://images.weserv.nl/?url=m.media-amazon.com/images/I/81VwzFzM7QL._AC_SL1500_.jpg" alt="Fahrradhelm">
+        <h4>Fahrradhelm mit LED-Licht</h4>
+        <a href="https://www.amazon.de/dp/B08C2V8Y7M?tag=myaffiliat0d2-21" target="_blank">Jetzt ansehen</a>
       </div>
 
+      <!-- Produkt 2 -->
       <div class="product">
-        <img src="https://m.media-amazon.com/images/I/81XK1+7TgUL._AC_SL1500_.jpg" alt="Abus Bordo Schloss">
-        <h3>Abus Bordo Faltschloss 6000A</h3>
-        <a href="https://www.amazon.de/dp/B07KZFV8PZ?tag=myaffiliat0d2-21" target="_blank">Jetzt ansehen</a>
+        <img src="https://images.weserv.nl/?url=m.media-amazon.com/images/I/71P6QbD0bdL._AC_SL1500_.jpg" alt="Fahrradschloss">
+        <h4>Abus Bordo Faltschloss 6000</h4>
+        <a href="https://www.amazon.de/dp/B00BPYSBXC?tag=myaffiliat0d2-21" target="_blank">Jetzt ansehen</a>
       </div>
 
+      <!-- Produkt 3 -->
       <div class="product">
-        <img src="https://m.media-amazon.com/images/I/71yEOLuHuGL._AC_SL1500_.jpg" alt="Uvex City i-vo Helm">
-        <h3>Uvex City i-vo E-Bike Helm</h3>
-        <a href="https://www.amazon.de/dp/B07Z5PBYL8?tag=myaffiliat0d2-21" target="_blank">Jetzt ansehen</a>
+        <img src="https://images.weserv.nl/?url=m.media-amazon.com/images/I/81y-5l2aTgL._AC_SL1500_.jpg" alt="Fahrradlampe">
+        <h4>LED Fahrradlampe Set mit Akku</h4>
+        <a href="https://www.amazon.de/dp/B07KQ7QMGV?tag=myaffiliat0d2-21" target="_blank">Jetzt ansehen</a>
       </div>
 
+      <!-- Produkt 4 -->
       <div class="product">
-        <img src="https://m.media-amazon.com/images/I/61wJrxK6DQL._AC_SL1500_.jpg" alt="E-Bike Ladegerät">
-        <h3>36V Ladegerät für E-Bikes – Schnellladegerät</h3>
-        <a href="https://www.amazon.de/dp/B0C6H4H8ZH?tag=myaffiliat0d2-21" target="_blank">Jetzt ansehen</a>
+        <img src="https://images.weserv.nl/?url=m.media-amazon.com/images/I/71QETWENQ7L._AC_SL1500_.jpg" alt="Fahrradtasche">
+        <h4>Wasserdichte Fahrradtasche für Gepäckträger</h4>
+        <a href="https://www.amazon.de/dp/B07VJH4G8F?tag=myaffiliat0d2-21" target="_blank">Jetzt ansehen</a>
       </div>
 
+      <!-- Produkt 5 -->
       <div class="product">
-        <img src="https://m.media-amazon.com/images/I/71HTdShPg4L._AC_SL1500_.jpg" alt="Fahrradtasche Wasserdicht">
-        <h3>Wasserdichte Fahrradtasche – 20 L Stauraum</h3>
-        <a href="https://www.amazon.de/dp/B08H4F1Z3C?tag=myaffiliat0d2-21" target="_blank">Jetzt ansehen</a>
+        <img src="https://images.weserv.nl/?url=m.media-amazon.com/images/I/61JbqSKcCWL._AC_SL1500_.jpg" alt="Multitool Fahrrad">
+        <h4>Fahrrad Multitool 16-in-1</h4>
+        <a href="https://www.amazon.de/dp/B01G0T0FZK?tag=myaffiliat0d2-21" target="_blank">Jetzt ansehen</a>
       </div>
 
-      <div class="product">
-        <img src="https://m.media-amazon.com/images/I/61x3rG8RX3L._AC_SL1500_.jpg" alt="Fahrradlicht Set">
-        <h3>LED Fahrradlicht-Set – StVZO zugelassen</h3>
-        <a href="https://www.amazon.de/dp/B07ZZB3HYM?tag=myaffiliat0d2-21" target="_blank">Jetzt ansehen</a>
-      </div>
-    </div>
+    </main>
+  </div>
 
-    <footer>
-      <p>Als Amazon-Partner verdiene ich an qualifizierten Verkäufen. Preise & Bilder von Amazon Product Advertising API.</p>
-    </footer>
-  </main>
 </body>
 </html>
